@@ -1,3 +1,16 @@
 html 기본값 = !+tab
 
 alert 경고창 알림 띄우기
+
+console.log(); 콘솔에 값 띄우기
+
+const = 상수, 바꿀수없음
+const b=2;
+const myName="hsa"
+
+let 변경가능
+let myname="hsa"
+myname="ham"
+
+띄어쓰기 해야 할 부분을 대문자로 쓴다
+
