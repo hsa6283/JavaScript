@@ -4,10 +4,12 @@ alert 경고창 알림 띄우기
 
 console.log(); 콘솔에 값 띄우기
 
+#console
 const = 상수, 바꿀수없음
 const b=2;
 const myName="hsa"
 
+#let
 let 변경가능
 let myname="hsa"
 myname="ham"
@@ -17,3 +19,16 @@ myname="ham"
 같은 단어 한번에 다 선택하기 ctrl+d
 
 배열이름.push("~"); 배열에 값 추가하기
+
+
+#object
+const player = {
+  name: "hsa",
+  points: 10,
+  fat: true,
+  };
+  
+  console.log(player); // 모든값 출력
+  console.log(player.points); //부분값 출력
+  player.points = 15; //값 변경 가능
+  player.lastname = "potato" //추가 입력 가능
